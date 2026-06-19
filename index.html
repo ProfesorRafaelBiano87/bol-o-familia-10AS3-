@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Bolão Brasil x Haiti</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Bolão 🇧🇷 Brasil x 🇭🇹 Haiti</h1>
+
+    <form id="formAposta">
+      <input type="text" id="nome" placeholder="Seu nome" required>
+
+      <div class="placar">
+        <input type="number" id="brasil" min="0" required>
+        <span> x </span>
+        <input type="number" id="haiti" min="0" required>
+      </div>
+
+      <button type="submit">Registrar Palpite</button>
+    </form>
+
+    <h2>Palpites registrados</h2>
+    <ul id="lista"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
